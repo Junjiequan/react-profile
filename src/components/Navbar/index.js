@@ -11,7 +11,6 @@ const Navbar = () => {
         <Nav>
             <NavContainer>
                 <NavLogo>AWESOME</NavLogo>
-                <NavLink>1|2|3|4</NavLink>
             </NavContainer>
         </Nav>
     )
