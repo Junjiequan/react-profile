@@ -1,12 +1,10 @@
 import {Global} from './GlobalStyle' ;
-
+import Navbar from './components/Navbar'
 function App() {
   return (
     <>
       <Global />
-      <div>
-          Yoooooooooooooo
-      </div>
+      <Navbar />
     </>
   );
 }
