@@ -3,13 +3,13 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.div`
-    background:#000;
+    background:#050308;
     top:0;
     height: 80px;
     /* margin-top:-80px; */
     display:flex;
     align-items:center;
-    z-index:99;
+    z-index:10;
     position:sticky;
     color: #fff;
 
@@ -22,15 +22,15 @@ export const NavContainer = styled.div`
     justify-content: space-between;
     z-index:1;
     width:100%;
-    padding: 0 24px;
-    max-width:1100px;
+    padding: 0 3rem;
+    max-width:2200px;
 `
 export const NavLogo = styled(LinkR)`
-    color:red;
+    color: #fff;
+    display:flex;
     justify-self:flex-start;
     cursor: pointer;
     font-size:1.5rem;
-    display:flex;
     align-items:center;
     margin-left:24px;
     font-weight:bold;
@@ -53,7 +53,10 @@ export const NavMenu = styled.ul`
     display:flex;
     align-items:center;
     text-align:center;
-
+    list-style:none;
+    font-size:16px;
+    font-weight:600;
+    /* margin-right: -22px; */
     @media screen and (max-width: 768px){
         display:none;
 
@@ -61,9 +64,54 @@ export const NavMenu = styled.ul`
 `
 export const NavItem = styled.li`
     height:80px;
-    display:flex;
+
 `
 export const NavLinks = styled(LinkS)`
     color:#fff;
+    display:flex;
+    height: 100%;
     align-items:center;
+    margin: 0 0.5rem;
+    padding: 0 1.3rem;
+    text-decoration:none;
+    cursor:pointer;
+    border-bottom: 0px solid #7D3EC1;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        color:#7D3EC1;
+        border-bottom: 5px solid #7D3EC1;
+        transition: 0.2s ease-in-out;
+    }
+    &:active{
+        color:#7D3EC1;
+        border-bottom: 5px solid #7D3EC1;
+        transition:0.2s ease-in-out;
+    }
+`
+export const NavBtn = styled.nav`
+    color:#fff;
+    display:flex;
+    align-items:center;
+    width:100px;
+    @media screen and (max-width: 768px){
+        display:none;
+
+    }
+`
+
+export const NavBtnLink = styled(LinkR)`
+    border-radius:50px;
+    background: #7D3EC1;
+    font-weight:bold;
+    white-space: nowrap;
+    padding: 10px 25px;
+    text-decoration:none;
+    color:#fff;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background:#fff;
+        color:#7D3EC1;
+        transition: all 0.2s ease-in-out;
+    }
+    
 `
