@@ -6,7 +6,7 @@ export const Global = createGlobalStyle`
       box-sizing:border-box;
     }
     body{
-      font-family:Arial, Helvetica, sans-serif;
+      font-family: 'Kanit', sans-serif;
     }
 `
 

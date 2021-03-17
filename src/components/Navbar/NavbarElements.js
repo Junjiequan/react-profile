@@ -6,12 +6,13 @@ export const Nav = styled.div`
     background:#050308;
     top:0;
     height: 80px;
-    /* margin-top:-80px; */
+    margin-top: -50px;
     display:flex;
     align-items:center;
     z-index:10;
     position:sticky;
     color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.9);
 
     @media screen and (max-width: 960px){
         transition: 0.8s all ease;
@@ -101,12 +102,13 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius:50px;
+    font-size:1rem;
     background: #7D3EC1;
     font-weight:bold;
     white-space: nowrap;
-    padding: 10px 25px;
+    padding: 10px 28px;
     text-decoration:none;
-    color:#fff;
+    color:#000;
     transition: all 0.2s ease-in-out;
     &:hover{
         background:#fff;
