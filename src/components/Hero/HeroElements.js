@@ -7,7 +7,9 @@ export const HeroContainer = styled.div`
 
 `
 export const HeroWrapper = styled.div`
-    height: 800px;
+    height:100vh;
+    text-align:center;
+    margin-top:3rem;
     display:flex;
-    align-items:center;
+    align-items:flex-start;
 `
