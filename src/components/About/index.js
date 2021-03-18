@@ -15,11 +15,11 @@ import {
     Img
 } from './AboutElements'
 
-
 const About = ({
     id,
     whitebg,
     gridStart,
+    headLine2,
     topLine,
     whiteText,
     headLine,
@@ -32,6 +32,7 @@ const About = ({
     primary,
     white,
     fontbig,
+    secondary
 }) => {
     return (
         <AboutContainer whitebg={whitebg} id={id}>  
@@ -40,10 +41,10 @@ const About = ({
                     <Content1>
                         <TxtWrapper>
                             <TopLine>{topLine}</TopLine>
-                            <Heading whiteText={whiteText}>{headLine}</Heading>
+                            <Heading whiteText={whiteText}>{headLine} <br />{headLine2}</Heading>
                             <Subtitle whiteTextSub={whiteTextSub}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button to="home" small={small} primary={primary} white={white} fontbig={fontbig}>{buttonLabel}</Button>
+                                <Button to="home" small={small} primary={primary} white={white} fontbig={fontbig} secondary={secondary}>{buttonLabel}</Button>
                             </BtnWrap>
                         </TxtWrapper>
                     </Content1>

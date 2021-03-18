@@ -5,7 +5,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import Sidebar from './components/Sidebar';
 import Hero from './components/Hero';
 import About from './components/About';
-import { aboutObjOne } from './components/About/Data';
+import { aboutObjOne, aboutObjTwo, aboutObjThree, aboutObjFour } from './components/About/Data';
 
 
 function App() {
@@ -20,7 +20,10 @@ function App() {
       <Sidebar isOpen={isOpen} toggle ={toggle}/>
       <Navbar toggle={toggle}/>
       <Hero />
-      <About {...aboutObjOne}/>
+      <About {...aboutObjOne} />
+      <About {...aboutObjTwo} />
+      <About {...aboutObjThree} />
+      <About {...aboutObjFour} />
     </Router>
   );
 }

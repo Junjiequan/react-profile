@@ -33,7 +33,7 @@ const Hero = () => {
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={MouseOver} onMouseLeave={MouseOver}
-                        primary='true' fontbig ="true" white='true'>
+                        primary='true' fontbig ="true" white="" primaryhover="true" whitehover="true">
                         View Projects {OnMouse? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>

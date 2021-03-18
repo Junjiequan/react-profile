@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {MdKeyboardArrowRight} from 'react-icons/md'
+import {MdKeyboardArrowRight, MdForward} from 'react-icons/md'
 import ImgBg from '../../images/bgIMG.png'
 
 export const HeroContainer = styled.div`
@@ -83,45 +83,11 @@ export const HeroBtnWrapper = styled.div`
     flex-direction:column;
     align-items:center;
 `
-// export const Button = styled.div`
-//     background:#7D3EC1;
-//     padding:10px 25px;
-//     border-radius:50px;
-//     display:flex;
-
-//     align-items:center;
-//     font-size:1rem;
-//     font-weight:600;
-//     color:#000;
-//     cursor:pointer;
-//     text-align:center;
-//     &:hover {
-//         background:#fff;
-//         color:#7D3EC1;
-//     }
-
-// `
-// export const ArrowForward = styled(MdKeyboardArrowRight)`
-//     margin-left:4px;
-//     font-size:1.5rem;
-//     transition: translateX(6px);
-//     transition: transform 0.3s ease-in-out;
-//     &:hover,
-//     ${Button}:hover &{
-//         transform: translateX(14px);
-//         transition: transform 0.3s ease-in-out;
-//     }
-
-//     margin-left:5px;
-//     font-size:1.5rem;
-// `
-
 export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left:5px;
-    font-size:1.5rem;   
+    font-size:1.5rem;
 `
-export const ArrowForward = styled(MdKeyboardArrowRight)`
+export const ArrowForward = styled(MdForward)`
     margin-left:5px;
     font-size:1.5rem;
-    transform: translateX(8px)
 `

@@ -2,29 +2,31 @@ import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
     color:#fff;
-    background:${({whitebg}) => (whitebg? '#f9f9f9' : '#070308')};
+    background:${({whitebg}) => (whitebg? '#f9f9f9' : '#170c1a')};
     @media screen and (max-width: 768px){
         padding: 6rem 0;
+ 
     }
     font-family: 'Encode Sans', sans-serif;
 `
 export const AboutWrapper= styled.div`
     display:grid;
     z-index:1;
-    height:400px;
+    height:780px;
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 1.7rem;
     justify-content:center;
+
 `
 export const AboutRow= styled.div`
     display:grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items:center;
-    grid-template-areas: ${({gridStart}) => (gridStart? `'col1 col2'`:`'col1 col2'`)};
+    grid-template-areas: ${({gridStart}) => (gridStart? `'col1 col2'`:`'col2 col1'`)};
     @media screen and (max-width:768px){
-    
+        grid-template-areas: ${({gridStart}) => (gridStart? `'col1' 'col2'`: `'col1 col1' 'col2 col2'`)};
     }
 `
 export const Content1= styled.div`
@@ -49,12 +51,13 @@ export const TopLine= styled.p`
     font-weight:700;
     letter-spacing:1;
     text-transform: uppercase;
-    margin-bottom:0.5rem;
+    margin-bottom:0.7rem;
 `
 export const Heading= styled.h1`
     margin-bottom:1.5rem;
     font-size: 3rem;
-    line-height:1;
+    line-height:1.1;
+    white-space:pre-wrap;
     font-weight:600;
     color:${({whiteText}) => (whiteText? '#f9f9f9':'#070308')};
 
@@ -65,6 +68,7 @@ export const Heading= styled.h1`
 export const Subtitle= styled.p`
     max-width:440px;
     margin-bottom:2rem;
+    white-space:pre-wrap;
     font-size:1.1rem;
     line-height:1.5rem;
     color: ${({whiteTextSub})=>(whiteTextSub?'#f9f9f9':'#070308')};
@@ -79,5 +83,10 @@ export const ImgWrapper = styled.div`
 `
 export const Img = styled.img`
     width: 100%;
-    margin-bottom: 10px; 
+    padding-bottom:50px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transition: all 0.3s ease-in-out;
+        transform: scale(0.95);
+    }
 `
