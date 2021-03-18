@@ -3,7 +3,7 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.div`
-    background:#050308;
+    background:#070308;
     top:0;
     height: 80px;
     margin-top: -50px;
@@ -104,11 +104,11 @@ export const NavBtnLink = styled(LinkR)`
     border-radius:50px;
     font-size:1rem;
     background: #7D3EC1;
-    font-weight:bold;
+    text-transform: uppercase;
     white-space: nowrap;
-    padding: 10px 28px;
+    padding: 8px 28px;
     text-decoration:none;
-    color:#000;
+    color:#070308;
     transition: all 0.2s ease-in-out;
     &:hover{
         background:#fff;

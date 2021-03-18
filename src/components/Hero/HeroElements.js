@@ -1,16 +1,27 @@
 import styled from 'styled-components'
-import {MdKeyboardArrowRight,MdArrowForward} from 'react-icons/md'
+import {MdKeyboardArrowRight} from 'react-icons/md'
 import ImgBg from '../../images/bgIMG.png'
-import {GlobalBtn} from '../../GlobalBtn'
 
 export const HeroContainer = styled.div`
     background-color: #060005;
     display:flex;
     justify-content:center;
     align-items:center;
-    height: 800px;
+    height: 100vh;
     position:relative;
     z-index:1;
+
+    :before{
+        content: '';
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 100%),
+        linear-gradient(180deg, rgba(0,0,0,0.1) 0%, transparent 100%);
+        z-index:2;
+    }
 `
 export const HeroBg = styled.div`
     position:absolute;
@@ -36,7 +47,6 @@ export const HeroContent = styled.div`
     max-width:1200px;
     position:absolute;
     padding:8px 24px;
-
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -59,7 +69,7 @@ export const HeroP = styled.p`
     font-size:1.5rem;
     color: #fff;
     text-align:center;
-    max-width: 500px;
+    max-width: 400px;
     @media screen and (max-width: 768px){
         font-size:1.3rem;
     }
@@ -91,11 +101,10 @@ export const HeroBtnWrapper = styled.div`
 //     }
 
 // `
-
 // export const ArrowForward = styled(MdKeyboardArrowRight)`
 //     margin-left:4px;
 //     font-size:1.5rem;
-//     transition: transformX(6px);
+//     transition: translateX(6px);
 //     transition: transform 0.3s ease-in-out;
 //     &:hover,
 //     ${Button}:hover &{
@@ -107,12 +116,12 @@ export const HeroBtnWrapper = styled.div`
 //     font-size:1.5rem;
 // `
 
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+    margin-left:5px;
+    font-size:1.5rem;   
+`
 export const ArrowForward = styled(MdKeyboardArrowRight)`
     margin-left:5px;
     font-size:1.5rem;
-`
-export const ArrowRight = styled(MdArrowForward)`
-    margin-left:5px;
-    font-size:1.5rem;
-    }
+    transform: translateX(8px)
 `
