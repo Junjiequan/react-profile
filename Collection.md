@@ -4,7 +4,11 @@ font-family: 'Kanit', sans-serif;
 
 font-family: 'Encode Sans', sans-serif;
 
-brown color : #ffd79d
+nice color combination:
+
+background-color: #070308 - purple
+
+color : #ffd79d - brown
 
 white-space: pre-wrap; \n
 
