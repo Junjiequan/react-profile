@@ -7,7 +7,7 @@ import { Link as LinkS} from 'react-scroll'
 export const FooterContainer = styled.div`
     width:100%;
     background: #070308;
-    min-height:400px;
+    min-height:350px;
     
 `
 export const FooterWrapper = styled.div`
