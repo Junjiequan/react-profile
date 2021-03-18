@@ -29,7 +29,8 @@ const Hero = () => {
                  Hello, there.
                 </HeroH1>
                 <HeroP>
-                 Welcome to my world.<br/> This is the first attempt I try to include some of <br/>my own code. 
+                 Welcome to my world.<br/> This is the first attempt I try to include some of my own code. <br />
+                 Services and footer section were coded originally.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={MouseOver} onMouseLeave={MouseOver}

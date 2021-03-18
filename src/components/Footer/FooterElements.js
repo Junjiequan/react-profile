@@ -38,13 +38,20 @@ export const FooterTitle = styled(LinkR)`
     color:#f9f9f9;
     margin-bottom:1rem;
     font-weight:bold;
-
+    &:hover{
+        color: #7D3EC1;
+        transition: all 0.2s ease;
+    }
 `
 export const FooterItems = styled(LinkR)`
     text-decoration:none;
     display:flex;
-    
     color:#766f78;
+    transition: all 0.2s ease;
+    &:hover{
+        color: #fff;
+        transition: all 0.2s ease;
+    }
 `
 export const FooterBottom = styled.div`
     display:flex;
