@@ -1,6 +1,14 @@
 font-family: 'Cedarville Cursive', cursive;
 
-brown color : #ffd79d
+font-family: 'Kanit', sans-serif;
+
+font-family: 'Encode Sans', sans-serif;
+
+**nice color combination:**
+
+> background-color: #070308 - purple
+
+> color : #ffd79d - brown
 
 white-space: pre-wrap; \n
 
