@@ -26,10 +26,10 @@ const Hero = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                 Hello, I'm Jay.
+                 Hello, there.
                 </HeroH1>
                 <HeroP>
-                 Welcome to my world.<br/> Here you can find all of my finished projects.  
+                 Welcome to my world.<br/> This is the first attempt I try to include some of <br/>my own code. 
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={MouseOver} onMouseLeave={MouseOver}

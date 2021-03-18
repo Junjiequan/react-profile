@@ -10,7 +10,7 @@ export const AboutContainer = styled.div`
     font-family: 'Encode Sans', sans-serif;
 `
 export const AboutWrapper= styled.div`
-    display:grid;
+    display:flex;
     z-index:1;
     height:780px;
     width: 100%;

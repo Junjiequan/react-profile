@@ -5,7 +5,9 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import Sidebar from './components/Sidebar';
 import Hero from './components/Hero';
 import About from './components/About';
-import { aboutObjOne, aboutObjTwo, aboutObjThree, aboutObjFour } from './components/About/Data';
+import { aboutObjOne, aboutObjTwo } from './components/About/Data';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -22,8 +24,8 @@ function App() {
       <Hero />
       <About {...aboutObjOne} />
       <About {...aboutObjTwo} />
-      <About {...aboutObjThree} />
-      <About {...aboutObjFour} />
+      <Projects />
+      <Footer />
     </Router>
   );
 }
