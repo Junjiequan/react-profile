@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import {MdKeyboardArrowRight,MdArrowForward} from 'react-icons/md'
+import ImgBg from '../../images/bgIMG.png'
+import {GlobalBtn} from '../../GlobalBtn'
 
 export const HeroContainer = styled.div`
     background-color: #060005;
@@ -23,7 +25,9 @@ export const HeroBg = styled.div`
 export const VideoBg = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
-    background: #232a34;
+    background:url(${ImgBg});
+    background-position:center;
+    background-size:cover;
     height:100%;
     width:100%;
 `
@@ -69,32 +73,46 @@ export const HeroBtnWrapper = styled.div`
     flex-direction:column;
     align-items:center;
 `
-export const Button = styled.div`
-    background:#7D3EC1;
-    padding:10px 25px;
-    border-radius:50px;
-    display:flex;
-    letter-spacing: 1px;
-    align-items:center;
-    font-size:1rem;
-    font-weight:600;
-    color:#000;
-    cursor:pointer;
-    text-align:center;
-    &:hover {
-        background:#fff;
-        color:#7D3EC1;
-    }
+// export const Button = styled.div`
+//     background:#7D3EC1;
+//     padding:10px 25px;
+//     border-radius:50px;
+//     display:flex;
 
-`
+//     align-items:center;
+//     font-size:1rem;
+//     font-weight:600;
+//     color:#000;
+//     cursor:pointer;
+//     text-align:center;
+//     &:hover {
+//         background:#fff;
+//         color:#7D3EC1;
+//     }
+
+// `
+
+// export const ArrowForward = styled(MdKeyboardArrowRight)`
+//     margin-left:4px;
+//     font-size:1.5rem;
+//     transition: transformX(6px);
+//     transition: transform 0.3s ease-in-out;
+//     &:hover,
+//     ${Button}:hover &{
+//         transform: translateX(14px);
+//         transition: transform 0.3s ease-in-out;
+//     }
+
+//     margin-left:5px;
+//     font-size:1.5rem;
+// `
+
 export const ArrowForward = styled(MdKeyboardArrowRight)`
-    margin-left:4px;
+    margin-left:5px;
     font-size:1.5rem;
-    transition: transformX(6px);
-    transition: transform 0.3s ease-in-out;
-    &:hover,
-    ${Button}:hover &{
-        transform: translateX(14px);
-        transition: transform 0.3s ease-in-out;
+`
+export const ArrowRight = styled(MdArrowForward)`
+    margin-left:5px;
+    font-size:1.5rem;
     }
 `

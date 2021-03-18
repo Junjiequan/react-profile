@@ -8,11 +8,19 @@ import {
     HeroH1,
     HeroP,
     HeroBtnWrapper,
-    Button,
+    // Button,
     ArrowForward,
     ArrowRight
 } from './HeroElements'
+import {GlobalBtn} from '../../GlobalBtn'
 const Hero = () => {
+
+    const [OnMouse, setOnMouse] = React.useState(false)
+
+    const MouseOver = () =>{
+        setOnMouse(!OnMouse)
+    }
+
     return (
         <HeroContainer>
             <HeroBg>
@@ -26,10 +34,9 @@ const Hero = () => {
                 I dream my painting and I paint my dream.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup">
-                        View Projects
-                       <ArrowForward />
-                    </Button>
+                    <GlobalBtn to="signup" onMouseEnter={MouseOver} onMouseLeave={MouseOver}>
+                        View Projects {OnMouse? <ArrowForward /> : <ArrowRight />}
+                    </GlobalBtn>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
