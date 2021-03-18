@@ -4,7 +4,7 @@ font-family: 'Kanit', sans-serif;
 
 font-family: 'Encode Sans', sans-serif;
 
-nice color combination:
+**nice color combination:
 
 background-color: #070308 - purple
 
