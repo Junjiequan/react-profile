@@ -9,7 +9,7 @@ export const aboutObjOne = {
     whiteText: false,
     whiteTextSub: false,
     topLine: '',
-    headLine: "Hello.\nWelcom here.",
+    headLine: "Hello.\nWelcome here.",
     description: "My name is Jay. A self-taught web developer.\nAs of January 2020, I finished my master's program in Economics and business management.\nThen, on January 2021 I started self-teaching front-end web development.",
     buttonLabel: 'View projects',
     gridStart: false,
