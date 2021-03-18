@@ -26,7 +26,6 @@ export const VideoBg = styled.video`
     background: #232a34;
     height:100%;
     width:100%;
-
 `
 export const HeroContent = styled.div`
     z-index:3;
