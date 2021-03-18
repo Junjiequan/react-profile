@@ -45,7 +45,7 @@ export const TxtWrapper= styled.div`
     padding-bottom: 4rem;
 `
 export const TopLine= styled.p`
-    color: #7D3EC1;
+    color: #e0cdbe;
     font-size:1rem;
     line-height:1rem;
     font-weight:700;
@@ -59,7 +59,7 @@ export const Heading= styled.h1`
     line-height:1.1;
     white-space:pre-wrap;
     font-weight:600;
-    color:${({whiteText}) => (whiteText? '#f9f9f9':'#070308')};
+    color:${({whiteText}) => (whiteText? '#ffd79d':'#070308')};
 
     @media screen and (max-width:480px){
         font-size:2rem;

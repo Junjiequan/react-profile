@@ -1,6 +1,6 @@
 import svgbuilding from '../../images/svg-building.svg'
-import svgbusiness from '../../images/svg-business.svg'
-import svgemail from '../../images/svg-email.svg'
+// import svgbusiness from '../../images/svg-business.svg'
+// import svgemail from '../../images/svg-email.svg'
 import svgsuperwoman from '../../images/svg-superwoman.svg'
 
 export const aboutObjOne = {
@@ -28,8 +28,8 @@ export const aboutObjTwo = {
     whiteText: true,
     whiteTextSub: true,
     topLine: 'Self-teaching web developer',
-    headLine: 'Some may say, \nyou are too old to start new career.',
-    description: "But you know what? I won't hear any advice from anyone with loser mindset.\nI will follow my guts, whatever the others say. I will take action to prove they are stupid.",
+    headLine: 'Some may say, \nyou are too old to open a new path.',
+    description: "But you know what? I won't listen to any advice from anyone with loser mindset.\nI will follow my guts, whatever the others say.\nAnd I will take action to prove they are stupid.",
     buttonLabel: 'Get started',
     gridStart: true,
     img: svgsuperwoman,
