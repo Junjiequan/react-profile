@@ -14,20 +14,24 @@ export const FooterWrapper = styled.div`
     display:flex;
     flex-direction:column;
     max-width:1100px;
+    width:100%;
     margin:0 auto;
 `
 export const FooterLinkWrapper = styled.div`
-    display:flex;
-    align-items:center;
+    display:grid;
     justify-content:center;
-    flex-wrap:wrap;
-    margin: 0 4rem;
-    margin-top:4rem;
+    margin-top:5rem;
+    align-items:start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:repeat(2 auto);
+    @media screen and (max-width:768px){
+        grid-template-columns: 1fr 1fr;
+    }
 `
 export const FooterLinkItemsWrap = styled.div`
     display:flex;
     flex-direction:column;
-    padding:1rem 3rem;;
+    margin-left:4rem;    
 `
 export const FooterTitle = styled(LinkR)`
     text-decoration:none;
@@ -38,6 +42,8 @@ export const FooterTitle = styled(LinkR)`
 `
 export const FooterItems = styled(LinkR)`
     text-decoration:none;
+    display:flex;
+    
     color:#766f78;
 `
 export const FooterBottom = styled.div`
@@ -95,6 +101,3 @@ export const FooterIcon = styled.a`
         transition:all 0.3s ease-in-out;
     }
 `
-
-
-

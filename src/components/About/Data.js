@@ -29,7 +29,7 @@ export const aboutObjTwo = {
     whiteTextSub: true,
     topLine: 'Self-teaching web developer',
     headLine: 'Some may say, \nyou are too old to open a new path.',
-    description: "But you know what? I won't listen to any advice from anyone with loser mindset.\nI will follow my guts, whatever the others say.\nAnd I will take action to prove they are stupid.",
+    description: "But you know what? I won't listen to any advice from anyone with loser mindset.\nI will follow my guts whatever the others say.\nAnd I will take action to prove they were dumb.",
     buttonLabel: 'Get started',
     gridStart: true,
     img: svgsuperwoman,

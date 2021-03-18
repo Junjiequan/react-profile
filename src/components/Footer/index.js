@@ -33,12 +33,11 @@ const Footer = () => {
                        <FooterItems to="/">Terms of Service</FooterItems>
                    </FooterLinkItemsWrap>
                    <FooterLinkItemsWrap>
-                       <FooterTitle>About us</FooterTitle>
-                       <FooterItems to="/">How it works</FooterItems>
-                       <FooterItems to="/">Testionials</FooterItems>
-                       <FooterItems to="/">Careers</FooterItems>
-                       <FooterItems to="/">Tutorials</FooterItems>
-                       <FooterItems to="/">Terms of Service</FooterItems>
+                       <FooterTitle>Contact Us</FooterTitle>
+                       <FooterItems to="/">Contact</FooterItems>
+                       <FooterItems to="/">Support</FooterItems>
+                       <FooterItems to="/">Destinations</FooterItems>
+                       <FooterItems to="/">Sponsorships</FooterItems>
                    </FooterLinkItemsWrap>
                    <FooterLinkItemsWrap>
                        <FooterTitle>About us</FooterTitle>
@@ -46,7 +45,6 @@ const Footer = () => {
                        <FooterItems to="/">Testionials</FooterItems>
                        <FooterItems to="/">Careers</FooterItems>
                        <FooterItems to="/">Tutorials</FooterItems>
-                       <FooterItems to="/">Terms of Service</FooterItems>
                    </FooterLinkItemsWrap>
                    <FooterLinkItemsWrap>
                        <FooterTitle>About us</FooterTitle>
@@ -54,7 +52,6 @@ const Footer = () => {
                        <FooterItems to="/">Testionials</FooterItems>
                        <FooterItems to="/">Careers</FooterItems>
                        <FooterItems to="/">Tutorials</FooterItems>
-                       <FooterItems to="/">Terms of Service</FooterItems>
                    </FooterLinkItemsWrap>
                </FooterLinkWrapper>
                <FooterBottom>

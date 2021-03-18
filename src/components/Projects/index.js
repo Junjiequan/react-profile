@@ -28,7 +28,7 @@ const Projects = () => {
                     <Projectsinfo>
                         <Img src={star} alt="1"/>
                         <ProjectsTitle>Chatting service</ProjectsTitle>
-                        <ProjectsText>Whenever you feel lonliness just text me. I cant't guarantee I will always respond on time though. Nevertheless, at least you know there's someone you can expect for.</ProjectsText>
+                        <ProjectsText>I cant't guarantee I will always respond on time though. Nevertheless, at least you know there's someone you can expect for.</ProjectsText>
                     </Projectsinfo>
                     <Projectsinfo>
                         <Img src={walkdog} alt="1"/>
