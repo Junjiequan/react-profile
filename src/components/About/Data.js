@@ -5,6 +5,7 @@ import svgsuperwoman from '../../images/svg-superwoman.svg'
 
 export const aboutObjOne = {
     id:'about',
+    to: 'skills',
     whitebg: true,
     whiteText: false,
     whiteTextSub: false,
@@ -24,6 +25,7 @@ export const aboutObjOne = {
 }
 export const aboutObjTwo = {
     id:'skills',
+    to:'Services',
     whitebg: false,
     whiteText: true,
     whiteTextSub: true,

@@ -3,7 +3,6 @@ import { Link as LinkR} from 'react-router-dom'
 import { Link as LinkS} from 'react-scroll'
 
 
-
 export const FooterContainer = styled.div`
     width:100%;
     background: #070308;
@@ -43,7 +42,8 @@ export const FooterTitle = styled(LinkR)`
         transition: all 0.2s ease;
     }
 `
-export const FooterItems = styled(LinkR)`
+export const FooterItems = styled.a`
+    cursor:pointer;
     text-decoration:none;
     display:flex;
     color:#766f78;

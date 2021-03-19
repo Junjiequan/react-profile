@@ -26,7 +26,7 @@ export const NavContainer = styled.div`
     padding: 0 3rem;
     max-width:2200px;
 `
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
     color: #fff;
     display:flex;
     justify-self:flex-start;

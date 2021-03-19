@@ -32,7 +32,8 @@ const About = ({
     primary,
     white,
     fontbig,
-    secondary
+    secondary,
+    to
 }) => {
     return (
         <AboutContainer whitebg={whitebg} id={id}>  
@@ -44,7 +45,7 @@ const About = ({
                             <Heading whiteText={whiteText}>{headLine} <br />{headLine2}</Heading>
                             <Subtitle whiteTextSub={whiteTextSub}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button to="home" small={small} primary={primary} white={white} fontbig={fontbig} secondary={secondary}>{buttonLabel}</Button>
+                                <Button to={to} small={small} primary={primary} white={white} fontbig={fontbig} secondary={secondary}>{buttonLabel}</Button>
                             </BtnWrap>
                         </TxtWrapper>
                     </Content1>

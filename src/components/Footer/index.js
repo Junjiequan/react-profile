@@ -21,15 +21,15 @@ import {
 
 const Footer = () => {
     return (
-       <FooterContainer>
+       <FooterContainer id="contact">
            <FooterWrapper>
                <FooterLinkWrapper>
                    <FooterLinkItemsWrap>
-                       <FooterTitle>About us</FooterTitle>
-                       <FooterItems to="/">How it works</FooterItems>
-                       <FooterItems to="/">Testionials</FooterItems>
-                       <FooterItems to="/">Careers</FooterItems>
-                       <FooterItems to="/">Tutorials</FooterItems>
+                       <FooterTitle >About Me</FooterTitle>
+                       <FooterItems href="https://github.com/a331998513" target="_blank">Github</FooterItems>
+                       <FooterItems to="/">phone</FooterItems>
+                       <FooterItems to="/">address</FooterItems>
+                       <FooterItems to="/">linkedin</FooterItems>
                        <FooterItems to="/">Terms of Service</FooterItems>
                    </FooterLinkItemsWrap>
                    <FooterLinkItemsWrap>
@@ -47,7 +47,7 @@ const Footer = () => {
                        <FooterItems to="/">Tutorials</FooterItems>
                    </FooterLinkItemsWrap>
                    <FooterLinkItemsWrap>
-                       <FooterTitle>About us</FooterTitle>
+                       <FooterTitle>About them</FooterTitle>
                        <FooterItems to="/">How it works</FooterItems>
                        <FooterItems to="/">Testionials</FooterItems>
                        <FooterItems to="/">Careers</FooterItems>
@@ -56,7 +56,7 @@ const Footer = () => {
                </FooterLinkWrapper>
                <FooterBottom>
                     <FooterBOTWrapper>
-                        <FooterLogo>Jay</FooterLogo>
+                        <FooterLogo to="home">Jay</FooterLogo>
                         <FooterCopy>Jay &#169; 2020 All rights reserved.</FooterCopy>
                         <FooterIcons> 
                             <FooterIcon href="https://www.Instagram.com/" target="_blank"><FaInstagram /></FooterIcon>

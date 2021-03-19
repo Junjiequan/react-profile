@@ -20,7 +20,7 @@ const Hero = () => {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer id="home">
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             </HeroBg>
@@ -29,11 +29,10 @@ const Hero = () => {
                  Hello, there.
                 </HeroH1>
                 <HeroP>
-                 Welcome to my world.<br/> This is the first attempt I try to include some of my own code. <br />
-                 Services and footer section were coded originally.
+                 Welcome to my world.<br/> Learning tech is of so much pleasure to me. I love every second of learning new things in tech.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={MouseOver} onMouseLeave={MouseOver}
+                    <Button to="about" onMouseEnter={MouseOver} onMouseLeave={MouseOver}
                         primary='true' fontbig ="true" white="" primaryhover="true" whitehover="true">
                         View Projects {OnMouse? <ArrowForward /> : <ArrowRight />}
                     </Button>
