@@ -84,10 +84,11 @@ export const HeroBtnWrapper = styled(LinkS)`
     align-items:center;
 `
 export const ArrowRight = styled(MdKeyboardArrowRight)`
-    margin-left:5px;
-    font-size:1.5rem;
+    transform:translate(6px,1px);
+    font-size:16px;
+
 `
 export const ArrowForward = styled(MdForward)`
-    margin-left:5px;
-    font-size:1.5rem;
+    transform:translate(6px,1px);
+    font-size:16px;
 `

@@ -34,7 +34,7 @@ const Hero = () => {
                 <HeroBtnWrapper>
                     <Button to="about" onMouseEnter={MouseOver} onMouseLeave={MouseOver}
                         primary='true' fontbig ="true" white="" primaryhover="true" whitehover="true">
-                        Who am I{OnMouse? <ArrowForward /> : <ArrowRight />}
+                        About me{OnMouse? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

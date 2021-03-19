@@ -8,7 +8,7 @@ import About from './components/About';
 import { aboutObjOne, aboutObjTwo } from './components/About/Data';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-
+import {productData} from './components/Projects/data'
 
 function App() {
   const [isOpen,setIsOpen] = React.useState(false);
@@ -24,7 +24,7 @@ function App() {
       <Hero />
       <About {...aboutObjOne} />
       <About {...aboutObjTwo} />
-      <Projects />
+      <Projects data={productData}/>
       <Footer />
     </Router>
   );
