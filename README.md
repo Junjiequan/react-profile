@@ -10,7 +10,7 @@
 
 
 
-![image](https://user-images.githubusercontent.com/78078898/111854454-adee5000-891f-11eb-8674-2fdbefc80a49.png)
+![image](https://user-images.githubusercontent.com/78078898/111855089-1a1e8300-8923-11eb-99bf-b6f1dada1ed1.png)
 
 **Hover effect**
 ```
