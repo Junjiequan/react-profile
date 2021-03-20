@@ -10,7 +10,8 @@
 
 
 
-![image](https://user-images.githubusercontent.com/78078898/111854395-5cde5c00-891f-11eb-800d-38c95f4e1def.png)
+![image](https://user-images.githubusercontent.com/78078898/111854454-adee5000-891f-11eb-8674-2fdbefc80a49.png)
+
 **Hover effect**
 ```
 export const ProjectsContentwrapper = styled.div`
