@@ -12,7 +12,7 @@ export const aboutObjOne = {
     topLine: '',
     headLine: "Hello.\nWelcome again.",
     description: "My name is Jay. A self-taught web developer.\nAs of January 2020, I finished my master's program in Economics and business management.\nThen, on January 2021 I started self-teaching front-end web development.",
-    buttonLabel: 'View skills',
+    buttonLabel: 'View projects',
     gridStart: false,
     img: svgbuilding,
     alt:'business',

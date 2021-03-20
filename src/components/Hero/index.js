@@ -9,7 +9,7 @@ import {
     HeroP,
     HeroBtnWrapper,
     ArrowForward,
-    ArrowRight
+    ArrowRight,
 } from './HeroElements'
 import {Button} from '../../GlobalBtn'
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import {MdKeyboardArrowRight, MdForward} from 'react-icons/md'
 import ImgBg from '../../images/bgIMG.png'
-import { Link as LinkS} from 'react-scroll'
+
 export const HeroContainer = styled.div`
     background-color: #060005;
     display:flex;
@@ -77,7 +77,7 @@ export const HeroP = styled.p`
         font-size:1.1rem;
     }
 `
-export const HeroBtnWrapper = styled(LinkS)`
+export const HeroBtnWrapper = styled.div`
     margin-top: 1.5rem;
     display:flex;
     flex-direction:column;

@@ -31,16 +31,15 @@ export const FooterLinkItemsWrap = styled.div`
     display:flex;
     flex-direction:column;
     margin-left:4rem;    
+    padding-bottom:2rem;
+    text-decoration:none;
 `
 export const FooterTitle = styled(LinkR)`
     text-decoration:none;
     color:#f9f9f9;
     margin-bottom:1rem;
     font-weight:bold;
-    &:hover{
-        color: #7D3EC1;
-        transition: all 0.2s ease;
-    }
+    cursor:default;
 `
 export const FooterItems = styled.a`
     cursor:pointer;
@@ -49,7 +48,7 @@ export const FooterItems = styled.a`
     color:#766f78;
     transition: all 0.2s ease;
     &:hover{
-        color: #fff;
+        color: #7D3EC1;
         transition: all 0.2s ease;
     }
 `

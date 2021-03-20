@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-
 export const ProjectsContainer = styled.div`
     font-family: 'Encode Sans', sans-serif;
     color: #070308;
+    margin-bottom:5rem;
 `
 export const Projectswrapper = styled.div`
-    margin: 10rem;
+    margin: 8rem;
     max-width:1600px;
     min-height:760px;
     height:100%;
@@ -24,8 +24,8 @@ export const Projectstitlewrapper = styled.div`
     margin-top:6rem;
 
     @media screen and (max-width:768px){
-        margin-top:3rem;
-       margin-bottom:3rem;
+        margin-top:0;
+        margin-bottom:3rem;
     }
 `
 export const ProjectsH1 = styled.h1`
@@ -42,11 +42,12 @@ export const ProjectsContentwrapper = styled.div`
     justify-content:flex-start;
     align-items:center;
     flex-wrap:wrap;
-    padding:30px;
-    min-height:580px;
+    padding:0 30px 0 30px;
+    min-height:500px;
 
     @media screen and (max-width:768px){
         height: 100%;
+        justify-content:center;
     }
 
 `
@@ -57,7 +58,6 @@ export const Projectsinfo = styled.div`
     background: linear-gradient(315deg, #27212c, #3c1053);
     margin: 30px 10px;
     padding:20px 15px;
-    margin-bottom:50px;
     display:flex;
     flex-direction: column;
     border-radius:6px;
@@ -65,38 +65,40 @@ export const Projectsinfo = styled.div`
     transition: 0.3s ease-in-out;
     text-decoration:none;
     &:hover{
-        height:400px;
+        height:420px;
+    }
+    @media screen and (max-width:768px){
+        margin:50px 15px;
     }
 `
 export const ImgWrapper = styled.a`
     position:relative;
     width:240px;
-    height:260px;
-    top: 1px;
+    height:220px;
+    top: 2px;
     margin: 0 auto;
     box-shadow: 1px 5px 15px rgba(0,0,0,0.2);
     z-index:1;
+    text-decoration:none;
     transition:all 0.8s ease-in-out;
-    &:hover{
+    ${Projectsinfo}:hover &{
         top:-65px;
         transition:all 0.5s ease-in-out;
     }
     @media screen and (max-width:768px){
         top:-65px;
     } 
-
 `
 export const Img = styled.img`
     max-width: 100%;
     border:4px solid rgba(255,255,255,0.9);
-
+    text-decoration:none;
     transition: 0.5s ease-in-out;
-    ${ImgWrapper}:hover &{
+    ${Projectsinfo}:hover &{
         border:4px solid rgba(255,255,255,0.1);
         transition: 0.5s ease-in-out;
     }
 `
-
 export const TextWrapper = styled.div`
     font-family: 'Kanit', sans-serif;
     position:relative;
@@ -110,22 +112,62 @@ export const TextWrapper = styled.div`
     ${Projectsinfo}:hover &{
         visibility:visible;
         opacity:1;
-        margin-top:-38px;
+        margin-top:-25px;
         transition-delay:0.3s;
     }
 `
-
 export const ProjectsTitle = styled.p`
     color:#fff;
     font-size:1.5rem;
     font-weight:bold;
-    letter-spacing:1.5px;
 `
 export const ProjectsText = styled.p`
     margin-top:12px;
     color:#fff;
     opacity:0.8;
     font-size:14px;
+    text-align:left;
+    white-space:pre-wrap;
     font-family: 'Encode Sans', sans-serif;
+    line-height:18px;
+    margin-bottom:1rem;
 `
-
+export const ImgTxt = styled.p`
+    opacity:0;
+    @media screen and (max-width:786px){
+    text-decoration:none;
+    opacity:1;
+    color: #fff;
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:700;
+    transform:translateY(10px);
+    transition-delay: 1s;
+    transition: 0.2s ease;
+    ${Projectsinfo}:hover &{
+        transform:translateY(-1px);
+        opacity:0;
+        transition-delay: 0.2s
+    }
+}   
+`
+export const PorjectButton = styled.a`
+    font-family: 'Encode Sans', sans-serif;
+    text-decoration:none;
+    padding:1rem 2rem;
+    background: #3c1053;
+    border-radius:2px;
+    color:#fff;
+    font-size:1rem;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+    cursor:pointer;
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+        background: #8e26c5;
+    }
+    @media screen and (max-width:768px){
+        margin-top:40px;
+    }
+`

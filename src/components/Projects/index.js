@@ -11,7 +11,8 @@ import {
     ProjectsText,
     ImgWrapper,
     TextWrapper,
-    NavLink
+    ImgTxt,
+    PorjectButton
 } from './ProjectsElements'
 
 
@@ -26,17 +27,19 @@ const Projects = ({data}) => {
                 <ProjectsContentwrapper>
                     {data.map((profile,index)=>{
                         return(
-                            <Projectsinfo href={profile.link} key={index} target="_blank" >
-                            <ImgWrapper href={profile.link}>
-                               <Img src={profile.img}alt={profile.alt}/>
-                            </ImgWrapper>
-                            <TextWrapper>
-                                <ProjectsTitle>{profile.name}</ProjectsTitle>
-                                <ProjectsText>{profile.desc}</ProjectsText>
-                            </TextWrapper>
-                        </Projectsinfo>
+                            <Projectsinfo key={index}  >
+                                <ImgWrapper href={profile.link} target="_blank" rel="noopener noreferrer" >
+                                    <Img src={profile.img} alt={profile.alt}/>
+                                </ImgWrapper>
+                                <ImgTxt>{profile.name}</ImgTxt>
+                                <TextWrapper>
+                                    <ProjectsTitle>{profile.name}</ProjectsTitle>
+                                    <ProjectsText>{profile.desc}</ProjectsText>
+                                </TextWrapper>
+                            </Projectsinfo>
                     )})}
                 </ProjectsContentwrapper>
+                <PorjectButton href="https://github.com/a331998513" target="_blank" rel="noopener noreferrer" >View more</PorjectButton>
             </Projectswrapper>
        </ProjectsContainer>
     )
