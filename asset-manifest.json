@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-profile/static/js/main.956ddeff.chunk.js",
-    "main.js.map": "/react-profile/static/js/main.956ddeff.chunk.js.map",
+    "main.js": "/react-profile/static/js/main.c46079c0.chunk.js",
+    "main.js.map": "/react-profile/static/js/main.c46079c0.chunk.js.map",
     "runtime-main.js": "/react-profile/static/js/runtime-main.c19bf8b6.js",
     "runtime-main.js.map": "/react-profile/static/js/runtime-main.c19bf8b6.js.map",
     "static/js/2.b9d77b86.chunk.js": "/react-profile/static/js/2.b9d77b86.chunk.js",
@@ -11,14 +11,15 @@
     "static/media/bgIMG.c5480d20.png": "/react-profile/static/media/bgIMG.c5480d20.png",
     "static/media/matrix.3522dd02.mp4": "/react-profile/static/media/matrix.3522dd02.mp4",
     "static/media/profile1.405ba6d6.png": "/react-profile/static/media/profile1.405ba6d6.png",
-    "static/media/profile2.5b04491d.png": "/react-profile/static/media/profile2.5b04491d.png",
+    "static/media/profile2.89b4bd7a.png": "/react-profile/static/media/profile2.89b4bd7a.png",
     "static/media/profile3.aba98c1b.png": "/react-profile/static/media/profile3.aba98c1b.png",
+    "static/media/profile4.89abba04.png": "/react-profile/static/media/profile4.89abba04.png",
     "static/media/svg-building.1a3c88f2.svg": "/react-profile/static/media/svg-building.1a3c88f2.svg",
     "static/media/svg-superwoman.8f057123.svg": "/react-profile/static/media/svg-superwoman.8f057123.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c19bf8b6.js",
     "static/js/2.b9d77b86.chunk.js",
-    "static/js/main.956ddeff.chunk.js"
+    "static/js/main.c46079c0.chunk.js"
   ]
 }
