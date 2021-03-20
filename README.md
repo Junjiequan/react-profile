@@ -10,6 +10,7 @@
 
 
 
+![image](https://user-images.githubusercontent.com/78078898/111854395-5cde5c00-891f-11eb-800d-38c95f4e1def.png)
 **Hover effect**
 ```
 export const ProjectsContentwrapper = styled.div`
@@ -96,4 +97,3 @@ export const ProjectsText = styled.p`
     color:#fff;
 `
 ```
-![image](https://user-images.githubusercontent.com/78078898/111854395-5cde5c00-891f-11eb-800d-38c95f4e1def.png)
