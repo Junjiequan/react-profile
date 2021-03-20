@@ -29,7 +29,7 @@ const Hero = () => {
                  Hello, there.
                 </HeroH1>
                 <HeroP>
-                 Welcome to my world.<br/> Learning tech is of so much pleasure to me. I love every second of learning new things in tech.
+                 Welcome to my world.<br/> This website is working in progress.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="about" onMouseEnter={MouseOver} onMouseLeave={MouseOver}

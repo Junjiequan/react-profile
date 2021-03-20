@@ -10,14 +10,15 @@ import {
     ProjectsTitle,
     ProjectsText,
     ImgWrapper,
-    TextWrapper
+    TextWrapper,
+    NavLink
 } from './ProjectsElements'
 
 
 const Projects = ({data}) => {
 
     return (
-       <ProjectsContainer id="Services">
+       <ProjectsContainer id="projects">
            <Projectswrapper>
                 <Projectstitlewrapper>
                     <ProjectsH1>My Projects</ProjectsH1>
@@ -26,8 +27,8 @@ const Projects = ({data}) => {
                     {data.map((profile,index)=>{
                         return(
                             <Projectsinfo href={profile.link} key={index} target="_blank" >
-                            <ImgWrapper>
-                                <Img src={profile.img}  alt={profile.alt}/>
+                            <ImgWrapper href={profile.link}>
+                               <Img src={profile.img}alt={profile.alt}/>
                             </ImgWrapper>
                             <TextWrapper>
                                 <ProjectsTitle>{profile.name}</ProjectsTitle>

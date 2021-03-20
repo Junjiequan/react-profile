@@ -25,7 +25,7 @@ export const aboutObjOne = {
 }
 export const aboutObjTwo = {
     id:'skills',
-    to:'Services',
+    to:'projects',
     whitebg: false,
     whiteText: true,
     whiteTextSub: true,
