@@ -74,6 +74,9 @@ export const FooterBOTWrapper = styled.div`
     @media screen and (max-width:768px){
         flex-direction:column;
     }
+    @media screen and (max-width:1024px){
+        margin:0 5%;
+    }
 `
 export const FooterLogo = styled(LinkS)`
     display:flex;
