@@ -1,6 +1,8 @@
 
 # work in progress
 
+## I will build Singin page soon, but before that I decided to redo free code camp projects.
+
 [react-profile(WIP)](https://a331998513.github.io/react-profile/)
 
 
