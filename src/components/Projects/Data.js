@@ -20,7 +20,7 @@ export const productData = [
     },
     {
         img: Calculator,
-        link: "https://a331998513.github.io/practice/calculator/",
+        link: "https://a331998513.github.io/Practice-redo/JScalculator/",
         alt:'Calculator',
         name:' Calculator ',
         desc: 'One of the free code camp projects. I still remember how struggle it was to build. It was quite hard to digest the concept of useState and setState.'
