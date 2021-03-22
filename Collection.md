@@ -1,21 +1,26 @@
-font-family: 'Cedarville Cursive', cursive;
+# Font collection
+- font-family: 'Cedarville Cursive', cursive; 
 
-font-family: 'Kanit', sans-serif;
+- font-family: 'Kanit', sans-serif;
 
-font-family: 'Encode Sans', sans-serif;
+- font-family: 'Encode Sans', sans-serif;
 
-**nice color combination:**
+# Color collection
+- #070308 
 
-> background-color: #070308 - purple
+- #ffd79d
 
-> color : #ffd79d - brown
+# Some code collection
 
-white-space: pre-wrap; \n
-
-**Parent hover change child style**
-
+Parent hover change child style
+```
   ${Link}:hover & {
     fill: rebeccapurple;
   }
+```
+Give text paragraph in curly bracket 
+```
+white-space: pre-wrap; // css property
 
-
+{I am.\nJay}
+```
