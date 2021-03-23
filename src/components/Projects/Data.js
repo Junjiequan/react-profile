@@ -30,10 +30,10 @@ export const productData = [
     },
     {
         img: DrumMachine,
-        link: "https://a331998513.github.io/practice/drum_machine/",
-        alt:'Drum machine',
-        name:' Drum machine ',
+        link: "https://a331998513.github.io/Practice-redo/TodoList/",
+        alt:'Todo list',
+        name:'Todo list',
         descTitle: 'Skills used',
-        desc: "REACT / HTML / CSS"
+        desc: "JAVASCRIPT / HTML / CSS"
     }
 ]
