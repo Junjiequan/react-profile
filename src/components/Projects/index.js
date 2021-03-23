@@ -12,7 +12,8 @@ import {
     ImgWrapper,
     TextWrapper,
     ImgTxt,
-    PorjectButton
+    PorjectButton,
+    Title
 } from './ProjectsElements'
 
 
@@ -34,7 +35,7 @@ const Projects = ({data}) => {
                                 <ImgTxt>{profile.name}</ImgTxt>
                                 <TextWrapper>
                                     <ProjectsTitle>{profile.name}</ProjectsTitle>
-                                    <ProjectsText>{profile.desc}</ProjectsText>
+                                    <ProjectsText><Title>{profile.descTitle}</Title>{profile.desc}</ProjectsText>
                                 </TextWrapper>
                             </Projectsinfo>
                     )})}

@@ -2,6 +2,8 @@ import Tetris from '../../images/profile1.png'
 import Restaurant from '../../images/profile5.png'
 import Calculator from '../../images/profile3.png'
 import DrumMachine from '../../images/profile4.png'
+import styled from 'styled-components'
+
 
 export const productData = [
     {
@@ -9,27 +11,31 @@ export const productData = [
         link: "https://a331998513.github.io/practice/Tetris/",
         alt:'Tetris',
         name:' Tetris ',
-        desc: 'Absolutely my favorate.\nI really enjoyed the process of building Tetris, as well as debugging.'
+        descTitle: 'Skills used',
+        desc: 'Javascript\nHTML\nCSS'
     },  
     {
         img: Restaurant,
         link: "https://a331998513.github.io/websites/",
         alt:'Restaurant',
         name:'Restaurant',
-        desc: "The first react website I have ever built. Using arrays.map to collect data method was really appealing indeed ! I learned how to setup react app here."
+        descTitle: 'Skills used',
+        desc: 'React \nCSS'
     },
     {
         img: Calculator,
         link: "https://a331998513.github.io/Practice-redo/JScalculator/",
         alt:'Calculator',
         name:' Calculator ',
-        desc: 'One of the free code camp projects. I still remember how struggle it was to build. It was quite hard to digest the concept of useState and setState.'
+        descTitle: 'Skills used',
+        desc: 'Javascript\nHTML\nCSS'
     },
     {
         img: DrumMachine,
         link: "https://a331998513.github.io/practice/drum_machine/",
         alt:'Drum machine',
         name:' Drum machine ',
-        desc: "Another free code camp projects.\nNot very satisfied with the result, but can't complain either. Whenever I got time I will consider to rebuild it"
+        descTitle: 'Skills used',
+        desc: "React\nHTML\nCSS"
     }
 ]

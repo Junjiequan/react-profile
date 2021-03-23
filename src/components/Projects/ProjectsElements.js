@@ -121,15 +121,32 @@ export const ProjectsTitle = styled.p`
     font-size:1.5rem;
     font-weight:bold;
 `
-export const ProjectsText = styled.p`
+export const Title = styled.p`
+    position:relative;
     margin-top:12px;
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:5px;
+    &:after{
+        content: "";
+        opacity:0.7;
+        background: white;
+        position: absolute;
+        top:1rem;
+        left:72px;
+        margin-top:3px;
+        height: 1px;
+        width: 86px;
+    }
+`
+export const ProjectsText = styled.p`
     color:#fff;
     opacity:0.8;
     font-size:14px;
-    text-align:left;
+    text-align:center;
     white-space:pre-wrap;
     font-family: 'Encode Sans', sans-serif;
-    line-height:18px;
+    line-height:1.2rem;
     margin-bottom:1rem;
 `
 export const ImgTxt = styled.p`
