@@ -65,7 +65,7 @@ export const Projectsinfo = styled.div`
     transition: 0.3s ease-in-out;
     text-decoration:none;
     &:hover{
-        height:420px;
+        height:380px;
     }
     @media screen and (max-width:768px){
         margin:50px 15px;
@@ -146,7 +146,7 @@ export const ProjectsText = styled.p`
     text-align:center;
     white-space:pre-wrap;
     font-family: 'Encode Sans', sans-serif;
-    line-height:1.2rem;
+    line-height:1.3rem;
     margin-bottom:1rem;
 `
 export const ImgTxt = styled.p`

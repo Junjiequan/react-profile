@@ -2,8 +2,6 @@ import Tetris from '../../images/profile1.png'
 import Restaurant from '../../images/profile5.png'
 import Calculator from '../../images/profile3.png'
 import DrumMachine from '../../images/profile4.png'
-import styled from 'styled-components'
-
 
 export const productData = [
     {
@@ -12,7 +10,7 @@ export const productData = [
         alt:'Tetris',
         name:' Tetris ',
         descTitle: 'Skills used',
-        desc: 'Javascript\nHTML\nCSS'
+        desc: 'JAVASCRIPT / HTML / CSS'
     },  
     {
         img: Restaurant,
@@ -20,7 +18,7 @@ export const productData = [
         alt:'Restaurant',
         name:'Restaurant',
         descTitle: 'Skills used',
-        desc: 'React \nCSS'
+        desc: 'REACT / CSS'
     },
     {
         img: Calculator,
@@ -28,7 +26,7 @@ export const productData = [
         alt:'Calculator',
         name:' Calculator ',
         descTitle: 'Skills used',
-        desc: 'Javascript\nHTML\nCSS'
+        desc: 'JAVASCRIPT / HTML / CSS'
     },
     {
         img: DrumMachine,
@@ -36,6 +34,6 @@ export const productData = [
         alt:'Drum machine',
         name:' Drum machine ',
         descTitle: 'Skills used',
-        desc: "React\nHTML\nCSS"
+        desc: "REACT / HTML / CSS"
     }
 ]

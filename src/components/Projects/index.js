@@ -16,7 +16,6 @@ import {
     Title
 } from './ProjectsElements'
 
-
 const Projects = ({data}) => {
 
     return (
@@ -28,7 +27,7 @@ const Projects = ({data}) => {
                 <ProjectsContentwrapper>
                     {data.map((profile,index)=>{
                         return(
-                            <Projectsinfo key={index}  >
+                            <Projectsinfo key={index}>
                                 <ImgWrapper href={profile.link} target="_blank" rel="noopener noreferrer" >
                                     <Img src={profile.img} alt={profile.alt}/>
                                 </ImgWrapper>
