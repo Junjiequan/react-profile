@@ -1,13 +1,16 @@
 import styled from 'styled-components'
-import imageURL from '../../images/project-background.svg'
+import imageURL from '../../images/project-background.png'
 
 export const ProjectsContainer = styled.div`
     font-family: 'Encode Sans', sans-serif;
     background: #fafafa url(${imageURL}) no-repeat;
+    background-size:200px 200px;
     color: #070308;
     padding-bottom:5rem;
     @media only screen and (max-width:480px){
         background-size:100px 100px;
+        outline:none;
+        border:none;
     }
     
 `

@@ -12,11 +12,13 @@ export const AboutContainer = styled.div`
     @media screen and (max-width: 768px){
         padding: 6rem 0;
     }
+    box-shadow:inset 1px 1px 5px rgba(0,0,0,0.5);
+    border-top:1px solid #7D3EC1;
 `
 export const AboutWrapper= styled.div`
     display:flex;
     z-index:1;
-    height:780px;
+    height:620px;
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
