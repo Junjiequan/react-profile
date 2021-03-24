@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../../GlobalBtn'
+
 import {
     AboutContainer,
     AboutWrapper,
@@ -36,7 +37,8 @@ const About = ({
     to
 }) => {
     return (
-        <AboutContainer whitebg={whitebg} id={id}>  
+        //whitebg={whitebg} first one
+        <AboutContainer  whitebg={whitebg} id={id}>  
             <AboutWrapper>
                 <AboutRow gridStart={gridStart}>
                     <Content1>

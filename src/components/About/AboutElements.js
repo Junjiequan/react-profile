@@ -1,13 +1,17 @@
 import styled from 'styled-components'
+import imageUrl from '../../images/about-background.svg'
+import imageUrl2 from '../../images/about-background2.svg'
 
+//background:${({whitebg}) => (whitebg ? background : '#170c1a')};
 export const AboutContainer = styled.div`
+    font-family: 'Encode Sans', sans-serif;
     color:#fff;
-    background:${({whitebg}) => (whitebg? '#f9f9f9' : '#170c1a')};
+    background: ${({whitebg}) => (whitebg ? `#fafafa`: `#170c1a`)};
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
     @media screen and (max-width: 768px){
         padding: 6rem 0;
- 
     }
-    font-family: 'Encode Sans', sans-serif;
 `
 export const AboutWrapper= styled.div`
     display:flex;
@@ -18,7 +22,6 @@ export const AboutWrapper= styled.div`
     margin: 0 auto;
     padding: 0 1.7rem;
     justify-content:center;
-
 `
 export const AboutRow= styled.div`
     display:grid;
@@ -80,6 +83,8 @@ export const BtnWrap= styled.div`
 export const ImgWrapper = styled.div`
     max-width:555px;
     height:100%;
+    padding: 0 2rem;
+   
 `
 export const Img = styled.img`
     width: 100%;

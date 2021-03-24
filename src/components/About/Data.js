@@ -1,7 +1,8 @@
-import svgbuilding from '../../images/svg-building.svg'
+import svgmain from '../../images/svg-main.svg'
 // import svgbusiness from '../../images/svg-business.svg'
 // import svgemail from '../../images/svg-email.svg'
 import svgsuperwoman from '../../images/svg-superwoman.svg'
+
 
 export const aboutObjOne = {
     id:'about',
@@ -14,7 +15,7 @@ export const aboutObjOne = {
     description: "My name is Jay. A self-taught web developer.\nAs of January 2020, I finished my master's program in Economics and business management.\nThen, on January 2021 I started self-teaching front-end web development.",
     buttonLabel: 'View projects',
     gridStart: false,
-    img: svgbuilding,
+    img: svgmain,
     alt:'business',
     small:'true',
     primary: 'true',

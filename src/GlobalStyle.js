@@ -7,6 +7,7 @@ export const Global = createGlobalStyle`
     }
     body{
       font-family: 'Kanit', sans-serif;
+      background: #fafafa;
     }
 `
 

@@ -1,9 +1,15 @@
 import styled from 'styled-components'
+import imageURL from '../../images/project-background.svg'
 
 export const ProjectsContainer = styled.div`
     font-family: 'Encode Sans', sans-serif;
+    background: #fafafa url(${imageURL}) no-repeat;
     color: #070308;
-    margin-bottom:5rem;
+    padding-bottom:5rem;
+    @media only screen and (max-width:480px){
+        background-size:100px 100px;
+    }
+    
 `
 export const Projectswrapper = styled.div`
     margin: 8rem;
@@ -17,7 +23,7 @@ export const Projectswrapper = styled.div`
     justify-content:flex-start;
     align-items:center;
     @media screen and (max-width:768px){
-        margin: 6rem 0;
+        padding: 6rem 0;
     }
 `
 export const Projectstitlewrapper = styled.div`
