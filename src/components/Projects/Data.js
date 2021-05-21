@@ -6,7 +6,7 @@ import DrumMachine from '../../images/profile4.png'
 export const productData = [
     {
         img: Tetris,
-        link: "https://a331998513.github.io/practice/Tetris/",
+        link: "https://a331998513.github.io/practice/docs/Tetris/",
         alt:'Tetris',
         name:' Tetris ',
         descTitle: 'Skills used',
